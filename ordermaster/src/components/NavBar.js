@@ -35,6 +35,9 @@ const NavBar = () => {
                     <MenuItem onClick={() => ChangeClick()}>
                         <MenuItemLink><NavLink to='/login'>LOGIN</NavLink></MenuItemLink>
                     </MenuItem>
+                    <MenuItem onClick={() => ChangeClick()}>
+                        <MenuItemLink><NavLink to='/api'>API</NavLink></MenuItemLink>
+                    </MenuItem>
                 </Menu>
             </NavBarWrapper>
         </NavBarContainer>
